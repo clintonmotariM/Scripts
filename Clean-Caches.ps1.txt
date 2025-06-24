@@ -1,0 +1,103 @@
+# 🧹 Safe System & App Cache Cleanup Script
+# Run PowerShell as Administrator
+
+Write-Host "`n🧹 Starting full cache cleanup..." -ForegroundColor Cyan
+
+# USER TEMP
+try {
+    Remove-Item "$env:TEMP\*" -Recurse -Force -ErrorAction Stop
+    Write-Host "✅ Cleared user TEMP folder."
+} catch {
+    Write-Warning "⚠️ Failed to clear user TEMP folder: $_"
+}
+
+# WINDOWS TEMP
+try {
+    Remove-Item "C:\Windows\Temp\*" -Recurse -Force -ErrorAction Stop
+    Write-Host "✅ Cleared Windows TEMP folder."
+} catch {
+    Write-Warning "⚠️ Failed to clear Windows TEMP folder: $_"
+}
+
+# WINDOWS UPDATE CACHE
+try {
+    Remove-Item "C:\Windows\SoftwareDistribution\Download\*" -Recurse -Force -ErrorAction Stop
+    Write-Host "✅ Cleared Windows Update cache."
+} catch {
+    Write-Warning "⚠️ Failed to clear Windows Update cache: $_"
+}
+
+# DELIVERY OPTIMIZATION
+try {
+    Remove-Item "C:\ProgramData\Microsoft\Windows\DeliveryOptimization\*" -Recurse -Force -ErrorAction Stop
+    Write-Host "✅ Cleared Delivery Optimization cache."
+} catch {
+    Write-Warning "⚠️ Failed to clear Delivery Optimization cache: $_"
+}
+
+# THUMBNAIL CACHE
+$thumbPath = "$env:LOCALAPPDATA\Microsoft\Windows\Explorer"
+try {
+    Get-ChildItem -Path $thumbPath -Include "*thumbcache*" -File | Remove-Item -Force -ErrorAction Stop
+    Write-Host "✅ Cleared Thumbnail cache."
+} catch {
+    Write-Warning "⚠️ Failed to clear Thumbnail cache: $_"
+}
+
+# MICROSOFT STORE CACHE
+try {
+    Get-ChildItem "$env:LOCALAPPDATA\Packages" -Recurse -Directory -ErrorAction SilentlyContinue |
+        Where-Object { $_.FullName -like "*\AC\Temp" } |
+        ForEach-Object {
+            Remove-Item "$($_.FullName)\*" -Recurse -Force -ErrorAction SilentlyContinue
+            Write-Host "✅ Cleared Store cache in: $($_.FullName)"
+        }
+} catch {
+    Write-Warning "⚠️ Failed to clear Microsoft Store cache: $_"
+}
+
+# EDGE BROWSER CACHE
+$edgeCachePath = "$env:LOCALAPPDATA\Microsoft\Edge\User Data\Default\Cache"
+try {
+    if (Test-Path $edgeCachePath) {
+        Remove-Item "$edgeCachePath\*" -Recurse -Force -ErrorAction Stop
+        Write-Host "✅ Cleared Edge browser cache."
+    }
+} catch {
+    Write-Warning "⚠️ Failed to clear Edge browser cache: $_"
+}
+
+# GOOGLE CHROME CACHE
+$chromeCachePath = "$env:LOCALAPPDATA\Google\Chrome\User Data\Default\Cache"
+try {
+    if (Test-Path $chromeCachePath) {
+        Remove-Item "$chromeCachePath\*" -Recurse -Force -ErrorAction Stop
+        Write-Host "✅ Cleared Chrome cache."
+    }
+} catch {
+    Write-Warning "⚠️ Failed to clear Chrome cache: $_"
+}
+
+# DISCORD CACHE
+$discordPath = "$env:APPDATA\discord\Cache"
+try {
+    if (Test-Path $discordPath) {
+        Remove-Item "$discordPath\*" -Recurse -Force -ErrorAction Stop
+        Write-Host "✅ Cleared Discord cache."
+    }
+} catch {
+    Write-Warning "⚠️ Failed to clear Discord cache: $_"
+}
+
+# VISUAL STUDIO CODE CACHE
+$vscodeCachePath = "$env:APPDATA\Code\Cache"
+try {
+    if (Test-Path $vscodeCachePath) {
+        Remove-Item "$vscodeCachePath\*" -Recurse -Force -ErrorAction Stop
+        Write-Host "✅ Cleared VS Code cache."
+    }
+} catch {
+    Write-Warning "⚠️ Failed to clear VS Code cache: $_"
+}
+
+Write-Host "`n✅ Finished full cleanup!" -ForegroundColor Green

@@ -1,0 +1,1349 @@
+﻿2025-06-19 18:45:13	. "D:\scripts\PowerShellLogs\log_commands.ps1"
+
+2025-06-19 18:45:25	Get-Date
+Get-Process
+
+2025-06-19 18:46:12	notepad $PROFILE
+
+2025-06-19 18:46:45	. "D:\scripts\PowerShellLogs\log_commands.ps1"
+
+2025-06-19 18:49:47	. "D:\scripts\PowerShellLogs\log_commands.ps1"
+
+2025-06-19 20:06:26	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-19 20:06:39	cd "D:\"
+2025-06-19 20:06:52	Get-Date
+Get-Process
+cd D:\
+Get-ChildItem
+
+2025-06-19 20:06:58	notepad "D:\scripts\PowerShellLogs\command_history.txt"
+
+2025-06-19 20:07:25	netsh wlan show profile
+2025-06-19 20:09:25	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-19 20:09:33	cd "D:\"
+2025-06-19 20:10:02	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-19 20:10:17	cd "D:\"
+2025-06-19 20:10:24	& "D:\dataforensics\sleuth kit\sleuthkit-4.14.0-win32\bin\fsstat.exe" \\.\E:
+# 📄 Shows detailed file system info for E: 📊
+
+2025-06-19 20:10:31	. "D:\scripts\PowerShellLogs\log_commands.ps1"
+
+2025-06-19 20:10:38	# 🔍 Run fls to list all files (recursive) and show directly in terminal 📂
+& "D:\dataforensics\sleuth kit\sleuthkit-4.14.0-win32\bin\fls.exe" -r -m / \\.\E:
+
+2025-06-19 20:10:45	perl "D:\dataforensics\sleuth kit\sleuthkit-4.14.0-win32\bin\mactime.pl" -b bodyfile.txt > timeline.csv
+# 🕒 Converts bodyfile to human-readable timeline CSV ⏳
+
+2025-06-19 20:10:49	& "D:\dataforensics\sleuth kit\sleuthkit-4.14.0-win32\bin\fsstat.exe" \\.\E:
+# 📄 Prints detailed FAT12 file system info for the E: drive 📊
+
+2025-06-19 20:15:56	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-19 20:16:12	cd D:\mitrat\mongodb
+
+# Create README.md with basic content
+echo "# mongodb" >> README.md
+
+# Initialize Git repository
+git init
+
+# Stage all files in the folder, including README.md
+git add .
+
+# Commit the files
+git commit -m "first commit"
+
+# Rename the default branch to main
+git branch -M main
+
+# Add the remote origin (replace with your actual GitHub URL)
+git remote add origin https://github.com/clintonmotariM/mongodb.git
+
+# Push your code to GitHub
+git push -u origin main
+
+2025-06-20 13:58:22	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 14:01:45	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 14:01:54	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 14:40:03	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 14:40:19	npm install
+2025-06-20 14:40:36	npm install
+
+2025-06-20 14:40:44	node app.js
+
+2025-06-20 14:42:34	npm init -y  #crates a basic package.json file in d:\mitrat\CloversUI
+
+2025-06-20 14:43:07	npm install express mongoose bcryptjs
+
+2025-06-20 14:46:25	cd D:\mitrat\CloversUI\clovers
+node app.js  #navigate to this folder teh run the app
+
+2025-06-20 14:46:44	http://localhost:3000
+
+2025-06-20 14:48:12	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 14:48:47	cd " D:\mitrat\CloversUI\clovers" 
+2025-06-20 14:48:52	cd  D:\mitrat\CloversUI\clovers
+2025-06-20 14:49:13	npm install jsonwebtoken express-validator express-session
+
+2025-06-20 14:57:27	node app.js
+
+2025-06-20 15:02:05	nmp install bcrypt #installs bycript 
+2025-06-20 15:02:18	npm install bcrypt
+
+2025-06-20 15:02:43	npm install bcryptjs
+
+2025-06-20 15:04:10	node app.js
+
+2025-06-20 15:05:04	node app.js
+
+2025-06-20 15:08:00	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 15:08:13	cd D:\mitrat\CloversUI\clovers
+2025-06-20 15:08:34	net start MongoDB
+
+2025-06-20 15:10:42	mkdir D:\database\mongoDB\data\db
+
+2025-06-20 15:12:43	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 15:17:46	cd D:\mitrat\CloversUI\clovers
+node app.js
+
+2025-06-20 15:27:40	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 15:27:53	cd D:\mitrat\CloversUI\clovers
+2025-06-20 15:28:30	npm install nodemailer crypto
+
+2025-06-20 16:01:11	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 16:01:25	cd D:\mitrat\CloversUI\clovers
+
+2025-06-20 16:01:36	git init
+2025-06-20 16:01:45	git init
+
+2025-06-20 16:02:17	git remote -v
+
+2025-06-20 16:02:25	git remote add origin https://github.com/clintonmotariM/CloversUI.git
+
+2025-06-20 16:02:33	git checkout -b my-new-branch
+
+2025-06-20 16:02:48	git add .
+
+2025-06-20 16:02:55	git commit -m "Initial commit on my-new-branch"
+
+2025-06-20 16:03:14	git push -u origin my-new-branch
+
+2025-06-20 16:07:14	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 18:23:43	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 18:23:46	npm run test
+2025-06-20 18:28:51	git add package.json
+
+2025-06-20 18:29:06	git commit -m "Add package.json"
+
+2025-06-20 18:30:33	git add User.js
+2025-06-20 18:31:18	git add package.json
+cd D:\mitrat\CloversUI\clovers\models\User.js
+2025-06-20 18:31:52	cd D:\mitrat\CloversUI\clovers\models\User.js
+2025-06-20 18:32:18	cd D:\mitrat\CloversUI\clovers\models
+2025-06-20 18:32:29	git add User.js
+2025-06-20 18:32:54	git commit -m "Add User.js"
+2025-06-20 18:38:03	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 19:57:00	git add index.html
+2025-06-20 19:57:25	cd D:\mitrat\CloversUI\clovers
+2025-06-20 19:57:33	git add index.html
+2025-06-20 19:57:50	git commit -m "Add index.html"
+2025-06-20 19:58:15	git add style.css
+2025-06-20 19:58:32	git commit -m "Add style.css"
+2025-06-20 19:59:33	git add login_sign_up.css
+2025-06-20 19:59:55	git commit -m "Add login_sign_up.css"
+2025-06-20 20:05:32	$env:SystemDrive   # Usually returns "C:"
+2025-06-20 20:05:32	$env:windir        # Usually returns "C:\Windows"
+2025-06-20 20:06:23	get-PSDrive -Name c # cheking total free space
+2025-06-20 20:06:44	Get-PSDrive C | Select-Object Name, @{Name="Used(GB)";Expression={[math]::Round(($_.Used/1GB),2)}}, @{Name="Free(GB)";Expression={[math]::Round(($_.Free/1GB),2)}}, @{Name="Total(GB)";Expression={[math]::Round(($_.Used + $_.Free)/1GB,2)}}
+2025-06-20 20:07:11	Get-PSDrive C | Select-Object Name, @{Name="Used(GB)";Expression={[math]::Round(($_.Used/1GB),2)}}, @{Name="Free(GB)";Expression={[math]::Round(($_.Free/1GB),2)}}, @{Name="Total(GB)";Expression={[math]::Round(($_.Used + $_.Free)/1GB,2)}}  #shows storage alocation in human readabel format 
+2025-06-20 20:07:20	$target = "C:\"
+2025-06-20 20:09:10	Get-ChildItem $target -Directory -Force |
+    Sort-Object { (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum).Sum } -Descending |
+    Select-Object Name, @{Name="Size(GB)";Expression={[math]::Round((Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | Measure-Object Length -Sum).Sum / 1GB,2)}} |
+    Format-Table -AutoSize
+2025-06-20 20:13:58	Get-ChildItem $target -Directory -Force |
+    Sort-Object { (Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum).Sum } -Descending |
+    Select-Object Name, @{Name="Size(GB)";Expression={[math]::Round((Get-ChildItem $_.FullName -Recurse -ErrorAction SilentlyContinue | Measure-Object Length -Sum).Sum / 1GB,2)}} |
+    Format-Table -AutoSize  #Shows storage consuming folders
+2025-06-20 20:14:09	$systemPaths = @(
+  "C:\Windows",
+  "C:\Program Files",
+  "C:\Program Files (x86)",
+  "C:\ProgramData"
+)
+2025-06-20 20:14:09	$systemPaths = @(
+  "C:\Windows",
+  "C:\Program Files",
+  "C:\Program Files (x86)",
+  "C:\ProgramData"
+)
+2025-06-20 20:14:38	$systemPaths | ForEach-Object {
+  $size = (Get-ChildItem $_ -Recurse -ErrorAction SilentlyContinue | Measure-Object Length -Sum).Sum
+  [PSCustomObject]@{
+    Folder = $_
+    SizeGB = [math]::Round($size / 1GB, 2)
+  }
+} | Format-Table -AutoSize
+2025-06-20 20:18:20	C:\$Recycle.Bin\S-1-5-21-...\ #Recycle bin might apear as 0gb if scanned at root level but each user's trash has its own staorage undere C:\$Recycle.Bin\S-1-5-21-...\
+2025-06-20 20:20:36	powercfg -h off #turns of hybernation mode
+2025-06-20 20:26:40	Remove-Item -Path "$env:TEMP\*" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item -Path "C:\Windows\Temp\*" -Recurse -Force -ErrorAction SilentlyContinue
+#clear temp files
+2025-06-20 20:26:46	Remove-Item -Path "$env:TEMP\*" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item -Path "C:\Windows\Temp\*" -Recurse -Force -ErrorAction SilentlyContinue
+#clear temp files
+2025-06-20 20:27:12	Clear-RecycleBin -Force
+2025-06-20 20:27:21	Clear-RecycleBin -Force
+
+2025-06-20 20:27:27	Clear-RecycleBin -Force
+
+2025-06-20 20:28:07	Clear-RecycleBin -Force
+# cleacrs recycle bin
+2025-06-20 20:28:34	Stop-Service wuauserv -Force
+Remove-Item -Recurse -Force C:\Windows\SoftwareDistribution\Download\*
+Start-Service wuauserv
+# deletes windows update cache 
+2025-06-20 20:28:41	Stop-Service wuauserv -Force
+Remove-Item -Recurse -Force C:\Windows\SoftwareDistribution\Download\*
+Start-Service wuauserv
+# deletes windows update cache 
+2025-06-20 20:42:29	Get-ChildItem C:\Users\YourName\Downloads -Recurse | Sort-Object Length -Descending | Select-Object Name, @{Name="Size(GB)";Expression={[math]::Round($_.Length/1GB,2)}} | Format-Table -AutoSize
+# clean restore points
+2025-06-20 20:42:33	Get-ChildItem C:\Users\YourName\Downloads -Recurse | Sort-Object Length -Descending | Select-Object Name, @{Name="Size(GB)";Expression={[math]::Round($_.Length/1GB,2)}} | Format-Table -AutoSize
+# clean restore points
+2025-06-20 20:42:39	Get-ChildItem C:\Users\YourName\Downloads -Recurse | Sort-Object Length -Descending | Select-Object Name, @{Name="Size(GB)";Expression={[math]::Round($_.Length/1GB,2)}} | Format-Table -AutoSiz
+2025-06-20 20:43:29	Remove-Item -Path "$env:TEMP\*" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item -Path "C:\Windows\Temp\*" -Recurse -Force -ErrorAction SilentlyContinue
+#clrs temp files
+2025-06-20 20:43:59	Clear-RecycleBin -Force
+ #empties recycel bin 
+2025-06-20 20:44:06	Clear-RecycleBin -Force
+
+2025-06-20 20:44:22	Clear-RecycleBin -Force
+ # clr reecycel bin
+2025-06-20 20:44:34	Stop-Service wuauserv -Force
+Remove-Item -Recurse -Force C:\Windows\SoftwareDistribution\Download\*
+Start-Service wuauserv
+
+2025-06-20 20:45:52	Get-WmiObject -Class Win32_Product | Sort-Object -Property Name | Format-Table Name, Version, InstallDate
+
+2025-06-20 20:48:31	cleanmgr /sageset:1
+cleanmgr /sagerun:1
+#Cleaning utility files
+2025-06-20 20:49:22	Stop-Service wuauserv -Force
+# delete old windows update cache
+2025-06-20 20:49:43	net stop wuauserv
+Remove-Item -Recurse -Force C:\Windows\SoftwareDistribution\Download\*
+net start wuauserv
+
+2025-06-20 20:50:21	$source = "C:\Users\$env:UserName\Documents"
+$dest = "D:\C EXTENSION\Documents_Backup"
+
+if (!(Test-Path $dest)) {
+    New-Item -Path $dest -ItemType Directory
+}
+
+Get-ChildItem -Path $source -Recurse -File |
+    Sort-Object Length -Descending |
+    Select-Object -First 20 |
+    ForEach-Object {
+        Move-Item $_.FullName -Destination $dest -Force
+    }
+# move large files from downloads/documents
+2025-06-20 20:51:21	Get-WmiObject -Class Win32_Product | Where-Object { $_.Name -like "*Azure*" } | ForEach-Object { $_.Uninstall() }
+
+2025-06-20 20:52:32	Remove-Item -Path "$env:LOCALAPPDATA\Temp\*" -Recurse -Force -ErrorAction SilentlyContinue
+# rmvs browser cache, set up logs and update leftovers
+2025-06-20 21:05:58	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name -Unique |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize
+# POWERSHELL COMMAND TO LIST INSTALLED PROGRAM WITHOUT DUPLICATES
+2025-06-20 21:11:58	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name -Unique |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize
+# POWERSHELL COMMAND TO LIST INSTALLED PROGRAM WITHOUT DUPLICATES
+2025-06-20 21:13:21	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name -Unique |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize
+# POWERSHELL COMMAND TO LIST INSTALLED PROGRAM WITHOUT DUPLICATES
+2025-06-20 21:13:46	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name -Unique |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize |
+    Out-File "C:\Users\$env:USERNAME\Desktop\InstalledPrograms.txt"
+
+2025-06-20 21:16:43	yes
+2025-06-20 21:17:08	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name -Unique |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize |
+    Out-File "C:\Users\$env:USERNAME\Desktop\InstalledPrograms.txt"
+
+2025-06-20 21:18:54	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name -Unique |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize |
+    Out-File "C:\Users\$env:USERNAME\Desktop\InstalledPrograms.txt"
+
+2025-06-20 21:18:54	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name -Unique |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize |
+    Out-File "C:\Users\$env:USERNAME\Desktop\InstalledPrograms.txt"
+
+2025-06-20 21:19:09	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name -Unique |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize |
+    Out-File "C:\Users\$env:USERNAME\Desktop\InstalledPrograms.txt"
+
+2025-06-20 21:19:45	$duplicates = Get-WmiObject -Class Win32_Product |
+    Group-Object Name, Version |
+    Where-Object { $_.Count -gt 1 } |
+    ForEach-Object { $_.Group | Select-Object -Skip 1 }
+
+$duplicates | Format-Table Name, Version, InstallDate
+
+2025-06-20 21:20:49	($duplicates | Where-Object { $_.Name -eq "Program Name" -and $_.Version -eq "X.Y.Z" }) | ForEach-Object { $_.Uninstall() }
+ #
+2025-06-20 21:21:02	($duplicates | Where-Object { $_.Name -eq "Program Name" -and $_.Version -eq "X.Y.Z" }) | ForEach-Object { $_.Uninstall() }
+
+2025-06-20 21:26:23	($duplicates | Where-Object { $_.Name -eq "Program Name" -and $_.Version -eq "X.Y.Z" }) | ForEach-Object { $_.Uninstall() }
+2025-06-20 21:27:55	VS Script Debugging Common                                                    17.0.157.0      20250122
+vs_clickoncebootstrappermsi                                                   17.13.35716     20250313
+vs_clickoncebootstrappermsires                                                17.13.35716     20250313
+vs_clickoncesigntoolmsi                                                       17.13.35710     20250313
+vs_communitymsi                                                               16.11.34930     20250313
+vs_communitymsires                                                            17.13.35716     20250313
+vs_communitysharedmsi                                                         17.13.35716     20250313
+vs_communityx64msi                                                            17.13.35716     20250313
+vs_CoreEditorFonts                                                            17.7.40001      20250122
+vs_devenvsharedmsi                                                            17.13.35710     20250313
+vs_devenx64vmsi                                                               17.13.35710     20250313
+vs_filehandler_amd64                                                          17.13.35716     20250313
+vs_filehandler_x86                                                            17.13.35716     20250313
+vs_FileTracker_Singleton                                                      17.13.35716     20250313
+vs_githubprotocolhandlermsi                                                   17.13.35710     20250313
+vs_minshellinteropmsi                                                         16.10.31306     20250313
+vs_minshellinteropsharedmsi                                                   17.13.35716     20250313
+vs_minshellinteropx64msi                                                      17.13.35710     20250313
+vs_minshellmsi                                                                16.11.34902     20250313
+vs_minshellmsires                                                             17.13.35716     20250313
+vs_minshellsharedmsi                                                          17.13.35716     20250313
+vs_minshellx64msi                                                             17.13.35729     20250313
+vs_SQLClickOnceBootstrappermsi                                                17.13.35710     20250313
+vs_tipsmsi                                                                    17.13.35710     20250313
+vs_vswebprotocolselectormsi                                                   17.13.35710     20250313
+Windows SDK AddOn                                                             10.1.0.0        20250313
+PS C:\WINDOWS\system32> Get-WmiObject -Class Win32_Product |                  5.10.102.1      20250120
+>>     Sort-Object Name -Unique |
+>>     Sort-Object Name |
+>>     Format-Table Name, Version, InstallDate -AutoSize |
+>>     Out-File "C:\Users\$env:USERNAME\Desktop\InstalledPrograms.txt"
+>>
+PS C:\WINDOWS\system32> yes
+yes : The term 'yes' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ yes
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (yes:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32> Get-WmiObject -Class Win32_Product |
+>>     Sort-Object Name -Unique |
+>>     Sort-Object Name |
+>>     Format-Table Name, Version, InstallDate -AutoSize |
+>>     Out-File "C:\Users\$env:USERNAME\Desktop\InstalledPrograms.txt"
+>>
+PS C:\WINDOWS\system32> Get-WmiObject -Class Win32_Product |
+>>     Sort-Object Name -Unique |
+>>     Sort-Object Name |
+>>     Format-Table Name, Version, InstallDate -AutoSize |
+>>     Out-File "C:\Users\$env:USERNAME\Desktop\InstalledPrograms.txt"
+>>
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> $duplicates = Get-WmiObject -Class Win32_Product |
+>>     Group-Object Name, Version |
+>>     Where-Object { $_.Count -gt 1 } |
+>>     ForEach-Object { $_.Group | Select-Object -Skip 1 }
+>>
+>> $duplicates | Format-Table Name, Version, InstallDate
+>>
+
+Name                      Version       InstallDate
+----                      -------       -----------
+IntelliTraceProfilerProxy 15.0.21225.01 20250122
+
+
+PS C:\WINDOWS\system32> ($duplicates | Where-Object { $_.Name -eq "Program Name" -and $_.Version -eq "X.Y.Z" }) | ForEach-Object { $_.Uninstall() }
+>>  #
+PS C:\WINDOWS\system32> ($duplicates | Where-Object { $_.Name -eq "Program Name" -and $_.Version -eq "X.Y.Z" }) | ForEach-Object { $_.Uninstall() }
+>>
+PS C:\WINDOWS\system32> ($duplicates | Where-Object { $_.Name -eq "Program Name" -and $_.Version -eq "X.Y.Z" }) | ForEach-Object { $_.Uninstall() }
+PS C:\WINDOWS\system32>
+
+2025-06-20 21:37:41	$duplicates = Get-WmiObject -Class Win32_Product |
+    Group-Object Name, Version |
+    Where-Object { $_.Count -gt 1 } |
+    ForEach-Object { $_.Group | Select-Object -Skip 1 }
+
+$duplicates | Format-Table Name, Version, InstallDate
+
+2025-06-20 21:39:51	IntelliTraceProfilerProxy  15.0.21225.01  Installed on: 2025-01-22
+
+2025-06-20 21:42:17	($duplicates | Where-Object { $_.Name -eq "IntelliTraceProfilerProxy" -and $_.Version -eq "15.0.21225.01" }) | ForEach-Object { $_.Uninstall() }
+# uninstall the duplicate
+2025-06-20 21:43:09	$duplicates | ForEach-Object {
+    Write-Host "Uninstalling $($_.Name) $($_.Version)..."
+    $_.Uninstall()
+}
+# automaticaly removes all duplicates in the future 
+2025-06-20 21:44:18	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name -Unique |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize |
+    Out-File "C:\Users\$env:USERNAME\Desktop\InstalledPrograms.txt"
+
+2025-06-20 21:50:38	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name -Unique |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize |
+    Out-File "C:\Users\$env:USERNAME\Desktop\InstalledPrograms.txt"
+#generating clup rcrd and rprt
+2025-06-20 21:51:18	ReturnValue : 0
+
+2025-06-20 21:52:46	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name -Unique |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize |
+    Out-File "C:\Users\$env:USERNAME\Desktop\InstalledPrograms_Updated.txt"
+ # regenerates the updated list of installed programs to confirm the duplicate is gone 
+2025-06-20 21:55:08	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name -Unique |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize |
+    Out-File "C:\Users\$env:USERNAME\Desktop\InstalledPrograms_Updated.txt"
+#regenerate the updadted list of installed programs to confirm the duplicate is gone 
+2025-06-20 21:57:18	Get-Package | Sort-Object Name | Format-Table Name, Version -AutoSize
+# gtpk is fstr but lssdtld
+2025-06-20 22:01:32	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize
+ #clean way to view installed programs
+2025-06-20 22:02:48	Get-WmiObject -Class Win32_Product |
+    Sort-Object Name |
+    Format-Table Name, Version, InstallDate -AutoSize
+#view installed programs readable 
+2025-06-20 22:14:14	$duplicates = Get-WmiObject -Class Win32_Product |
+    Group-Object Name, Version |
+    Where-Object { $_.Count -gt 1 } |
+    ForEach-Object { $_.Group | Select-Object -Skip 1 }
+
+foreach ($app in $duplicates) {
+    try {
+        Write-Host "Attempting to uninstall duplicate: $($app.Name) $($app.Version)..."
+        $result = $app.Uninstall()
+        if ($result.ReturnValue -eq 0) {
+            Write-Host "✅ Successfully uninstalled."
+        } else {
+            Write-Host "⚠️ Uninstall returned non-zero code: $($result.ReturnValue)"
+        }
+    } catch {
+        Write-Warning "⚠️ Failed to uninstall $($app.Name): $_"
+    }
+}
+# cln dplct aut
+2025-06-20 22:16:35	Set-ExecutionPolicy Bypass -Scope Process -Force
+.\D:\scripts\PowerShellLogs\uninstall_duplicates.ps1
+
+2025-06-20 22:19:21	D:\scripts\PowerShellLogs\uninstall_duplicates.ps1
+ # hw t rn
+2025-06-20 22:19:51	Set-ExecutionPolicy Bypass -Scope Process -Force
+& "D:\scripts\PowerShellLogs\uninstall_duplicates.ps1"
+#hw to rn
+2025-06-20 22:20:42	"Error uninstalling $name $version: ${_}" | Out-File -Append $logFile
+# hw t rn
+2025-06-20 22:21:52	D:\scripts\PowerShellLogs\uninstall_duplicates.ps1
+
+2025-06-20 22:22:12	Set-ExecutionPolicy Bypass -Scope Process -Force
+& "D:\scripts\PowerShellLogs\uninstall_duplicates.ps1"
+
+2025-06-20 22:23:56	$logMessage = "Error uninstalling $name $version: $($_.Exception.Message)"
+$logMessage | Out-File -Append $logFile
+ # instd f tryn embd $ dir insidstr bld msg fst in var thn pipe it to Out-File
+2025-06-20 22:28:11	Set-ExecutionPolicy Bypass -Scope Process -Force
+# st exctn plcy fr cntnt sessn nly
+2025-06-20 22:28:34	& "D:\scripts\PowerShellLogs\uninstall_duplicates.ps1"
+#rning scrpt
+2025-06-20 22:28:57	D:\scripts\PowerShellLogs\uninstall_log.txt
+#chk lg otpt
+2025-06-20 22:30:41	Set-ExecutionPolicy Bypass -Scope Process -Force
+# st exctn plcy fr cntnt sessn nly
+2025-06-20 22:31:25	& "D:\scripts\PowerShellLogs\uninstall_duplicates.ps1"
+#rning scrpt
+2025-06-20 22:31:42	D:\scripts\PowerShellLogs\uninstall_log.txt
+#chk lg otpt
+2025-06-20 22:36:25	Set-ExecutionPolicy Bypass -Scope Process -Force
+# st exctn plcy fr cntnt sessn nly
+2025-06-20 22:36:29	& "D:\scripts\PowerShellLogs\uninstall_duplicates.ps1"
+#rning scrpt
+2025-06-20 22:36:39	D:\scripts\PowerShellLogs\uninstall_log.txt
+#chk lg otpt
+2025-06-20 22:37:38	Set-ExecutionPolicy Bypass -Scope Process -Force
+& "D:\scripts\PowerShellLogs\uninstall_duplicates.ps1"
+# ADMN RNING OPTMZ SCRT
+2025-06-20 22:41:27	notepad "D:\scripts\PowerShellLogs\uninstall_duplicates.ps1"
+#OPN SCRPT
+2025-06-20 22:43:52	Set-ExecutionPolicy Bypass -Scope Process -Force
+& "D:\scripts\PowerShellLogs\uninstall_duplicates.ps1"
+# RRN SCRPT
+2025-06-20 23:11:19	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 23:12:18	CD D:\mitrat\CloversUI\clovers
+2025-06-20 23:12:28	GIT INIT
+2025-06-20 23:12:35	git init
+
+2025-06-20 23:12:54	git remote add origin https://github.com/clintonmotariM/CloversUI.git
+# ADD GIT RMT 
+2025-06-20 23:13:09	git add .
+# ADD ALL FLS
+2025-06-20 23:13:23	git commit -m "Initial commit"
+# CMT FLS
+2025-06-20 23:13:57	git branch -M main
+git push -u origin main
+#PSH T GTHB
+2025-06-20 23:14:29	git remote show origin
+#CNFRM WTH RMT BRNCH
+2025-06-20 23:20:12	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-20 23:20:26	CD D:\mitrat\CloversUI\clovers
+2025-06-20 23:20:36	git pull origin main --allow-unrelated-histories
+
+2025-06-20 23:21:35	git commit
+
+2025-06-20 23:21:56	git push -u origin main
+
+2025-06-21 08:05:45	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-21 08:06:46	CD D:\mitrat\CloversUI\clovers
+2025-06-21 08:07:39	npm install axios jsonwebtoken mongoose dotenv
+# install pakages 
+2025-06-21 08:21:15	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-21 08:21:15	copy d:\mitrat\CloversUI\clovers\home.html d:\mitrat\CloversUI\clovers\public\home.html /Y
+2025-06-21 08:21:15	copy d:\mitrat\CloversUI\clovers\index.html d:\mitrat\CloversUI\clovers\public\index.html /Y
+2025-06-21 08:21:15	copy d:\mitrat\CloversUI\clovers\login_sign_up.html d:\mitrat\CloversUI\clovers\public\login_sign_up.html /Y
+2025-06-21 08:21:16	copy d:\mitrat\CloversUI\clovers\home.css d:\mitrat\CloversUI\clovers\public\home.css /Y
+2025-06-21 08:21:16	copy d:\mitrat\CloversUI\clovers\login_sign_up.css d:\mitrat\CloversUI\clovers\public\login_sign_up.css /Y
+2025-06-21 08:21:16	copy d:\mitrat\CloversUI\clovers\style.css d:\mitrat\CloversUI\clovers\public\style.css /Y
+2025-06-21 08:21:27	Copy-Item -Path d:\mitrat\CloversUI\clovers\home.html -Destination d:\mitrat\CloversUI\clovers\public\home.html -Force
+2025-06-21 08:21:27	Copy-Item -Path d:\mitrat\CloversUI\clovers\index.html -Destination d:\mitrat\CloversUI\clovers\public\index.html -Force
+2025-06-21 08:21:27	Copy-Item -Path d:\mitrat\CloversUI\clovers\login_sign_up.html -Destination d:\mitrat\CloversUI\clovers\public\login_sign_up.html -Force
+2025-06-21 08:21:27	Copy-Item -Path d:\mitrat\CloversUI\clovers\home.css -Destination d:\mitrat\CloversUI\clovers\public\home.css -Force
+2025-06-21 08:21:27	Copy-Item -Path d:\mitrat\CloversUI\clovers\login_sign_up.css -Destination d:\mitrat\CloversUI\clovers\public\login_sign_up.css -Force
+2025-06-21 08:21:27	Copy-Item -Path d:\mitrat\CloversUI\clovers\style.css -Destination d:\mitrat\CloversUI\clovers\public\style.css -Force
+2025-06-21 08:21:33	Copy-Item -Path d:\mitrat\CloversUI\clovers\icons\* -Destination d:\mitrat\CloversUI\clovers\public\icons\ -Force
+2025-06-21 08:25:26	Copy-Item -Path d:\mitrat\CloversUI\clovers\icons\* -Destination d:\mitrat\CloversUI\clovers\public\icons\ -Force
+2025-06-21 08:25:51	Move-Item -Path d:\mitrat\CloversUI\clovers\construct\routes\auth.js -Destination d:\mitrat\CloversUI\clovers\routes\auth.js -Force
+2025-06-21 08:25:52	Move-Item -Path d:\mitrat\CloversUI\clovers\construct\sign_up.js -Destination d:\mitrat\CloversUI\clovers\routes\sign_up.js -Force
+2025-06-21 08:26:03	Move-Item -Path 'd:\mitrat\CloversUI\clovers\construct\routes\auth.js' -Destination 'd:\mitrat\CloversUI\clovers\routes\auth.js' -Force
+2025-06-21 08:26:03	Move-Item -Path 'd:\mitrat\CloversUI\clovers\construct\sign_up.js' -Destination 'd:\mitrat\CloversUI\clovers\routes\sign_up.js' -Force
+2025-06-21 08:26:12	Copy-Item -Path 'd:\mitrat\CloversUI\clovers\construct\routes\auth.js' -Destination 'd:\mitrat\CloversUI\clovers\routes\auth.js' -Force
+2025-06-21 08:26:12	Copy-Item -Path 'd:\mitrat\CloversUI\clovers\construct\sign_up.js' -Destination 'd:\mitrat\CloversUI\clovers\routes\sign_up.js' -Force
+2025-06-21 08:37:21	Remove-Item -Recurse -Force .\icons
+2025-06-21 08:37:21	Remove-Item -Recurse -Force .\login* 
+2025-06-21 08:37:21	Remove-Item -Recurse -Force .\UIELEMENTS
+2025-06-21 08:37:22	Remove-Item -Recurse -Force .\clovers\construct
+2025-06-21 08:43:17	Remove-Item -Force d:\mitrat\CloversUI\clovers\home.css
+2025-06-21 08:43:17	Remove-Item -Force d:\mitrat\CloversUI\clovers\home.html
+2025-06-21 08:43:17	Remove-Item -Force d:\mitrat\CloversUI\clovers\index.html
+2025-06-21 08:43:18	Remove-Item -Force d:\mitrat\CloversUI\clovers\login_sign_up.css
+2025-06-21 08:43:18	Remove-Item -Force d:\mitrat\CloversUI\clovers\login_sign_up.html
+2025-06-21 08:43:18	Remove-Item -Force d:\mitrat\CloversUI\clovers\style.css
+2025-06-21 08:51:24	npm install dotenv
+
+2025-06-21 09:02:01	npm install cookie-parser
+
+2025-06-21 09:22:28	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-21 09:23:06	# Step 1: Navigate to your local folder
+cd D:\mitrat\CloversUI
+
+# Step 2: Initialize git (if not already a git repo)
+git init
+
+# Step 3: Add the remote origin (overwrite if needed)
+git remote add origin https://github.com/clintonmotariM/CloversUI.git
+
+# If remote already exists, do:
+# git remote set-url origin https://github.com/clintonmotariM/CloversUI.git
+
+# Step 4: Checkout to the branch you want to push to
+git fetch origin
+git checkout -b New-branch-update origin/New-branch-update
+
+# Step 5: Stage all files
+git add .
+
+# Step 6: Commit with a message
+git commit -m "🚀 Move CloversUI files to New-branch-update"
+
+# Step 7: Push to GitHub
+git push origin New-branch-update
+
+2025-06-21 09:24:03	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-21 09:24:13	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-21 09:24:19	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-21 09:34:41	cd D:\mitrat\CloversUI
+# navgt to prjct
+2025-06-21 09:34:50	git init
+2025-06-21 09:35:11	git remote add origin https://github.com/clintonmotariM/CloversUI.git
+# adding git repo using remote orgin
+2025-06-21 09:35:39	git remote set-url origin https://github.com/clintonmotariM/CloversUI.git
+
+2025-06-21 09:37:10	cd D:\mitrat\CloversUI            # Ensure you're in your project directory
+
+git checkout -b New-branch-update  # 1. Create and switch to the new branch
+
+git add .                          # 2. Stage your files
+git commit -m "🔀 Initial commit to New-branch-update"  # 3. Commit your changes
+
+git push -u origin New-branch-update  # 4. Push the new branch to GitHub
+
+2025-06-21 09:38:19	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-21 09:38:48	cd D:\mitrat\CloversUI
+Remove-Item -Recurse -Force .git
+
+2025-06-21 09:39:08	cd D:\mitrat\CloversUI
+Remove-Item -Recurse -Force .git
+
+2025-06-21 09:39:17	git init
+2025-06-21 09:39:30	git remote add origin https://github.com/clintonmotariM/CloversUI.git
+# adding reposit
+2025-06-21 09:40:03	git checkout -b New-branch-update
+# cret n swtch nw brnch
+2025-06-21 09:40:35	git add .
+2025-06-21 09:41:12	git commit -m "🚀 Fresh push of CloversUI project to New-branch-update"
+# cmt chgs
+2025-06-21 09:41:56	git push -u origin New-branch-update
+2025-06-21 09:42:28	git push -u origin New-branch-update
+# psh to git
+2025-06-21 09:43:39	git push -u origin New-branch-update --force
+# frc psh replc git brnch with lcl one
+2025-06-21 11:19:55	winget install --id Microsoft.WindowsTerminal -e
+2025-06-21 11:22:55	winget install --id Microsoft.WindowsTerminal -e #chk if wnds terminal exts
+2025-06-21 11:23:02	Add-Type -TypeDefinition '[DllImport("user32.dll")]public static extern bool SetWindowPos(IntPtr hWnd, IntPtr hWndInsertAfter, int X, int Y, int cx, int cy, uint uFlags);' -Name NativeMethods -Namespace Win32
+2025-06-21 11:23:02	$hwnd = (Get-Process -Id $PID).MainWindowHandle
+2025-06-21 11:23:02	[Win32.NativeMethods]::SetWindowPos($hwnd, -1, 0, 0, 0, 0, 0x0001 -bor 0x0002)
+2025-06-21 11:23:34	Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+
+public class WindowTools {
+    [DllImport("user32.dll")]
+    public static extern bool SetWindowPos(
+        IntPtr hWnd,
+        IntPtr hWndInsertAfter,
+        int X,
+        int Y,
+        int cx,
+        int cy,
+        uint uFlags);
+}
+"@
+2025-06-21 11:24:04	$hwnd = (Get-Process -Id $PID).MainWindowHandle
+2025-06-21 11:24:04	$HWND_TOPMOST = [IntPtr]::op_Explicit(-1)
+2025-06-21 11:24:04	$SWP_NOMOVE = 0x0002
+2025-06-21 11:24:04	$SWP_NOSIZE = 0x0001
+2025-06-21 11:24:04	[WindowTools]::SetWindowPos($hwnd, $HWND_TOPMOST, 0, 0, 0, 0, $SWP_NOMOVE -bor $SWP_NOSIZE)
+2025-06-21 11:24:17	Add-Type @"using System; using System.Runtime.InteropServices; public class WindowTools { [DllImport("user32.dll")] public static extern bool SetWindowPos(IntPtr hWnd, IntPtr hWndInsertAfter, int X, int Y, int cx, int cy, uint uFlags); }"@
+2025-06-21 11:24:17	$hwnd = (Get-Process -Id $PID).MainWindowHandle
+2025-06-21 11:24:17	[WindowTools]::SetWindowPos($hwnd, [IntPtr]::op_Explicit(-1), 0, 0, 0, 0, 0x0001 -bor 0x0002)
+2025-06-21 11:25:33	(Get-Process -Id $PID).MainWindowTitle
+2025-06-21 11:25:44	$parent = Get-CimInstance Win32_Process -Filter "ProcessId = $PID" | Select-Object -ExpandProperty ParentProcessId
+2025-06-21 11:25:44	(Get-Process -Id $parent).MainWindowTitle
+2025-06-21 11:26:03	$hwnd = (Get-Process -Id $parent).MainWindowHandle
+2025-06-21 11:26:17	[WindowTools]::SetWindowPos($hwnd, [IntPtr]::op_Explicit(-1), 0, 0, 0, 0, 0x0001 -bor 0x0002)
+2025-06-21 11:26:35	Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class WindowTools {
+    [DllImport("user32.dll")]
+    public static extern bool SetWindowPos(
+        IntPtr hWnd,
+        IntPtr hWndInsertAfter,
+        int X,
+        int Y,
+        int cx,
+        int cy,
+        uint uFlags);
+}
+"@
+2025-06-21 11:26:35	Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class WindowTools {
+    [DllImport("user32.dll")]
+    public static extern bool SetWindowPos(
+        IntPtr hWnd,
+        IntPtr hWndInsertAfter,
+        int X,
+        int Y,
+        int cx,
+        int cy,
+        uint uFlags);
+}
+"@
+2025-06-21 11:26:35	$parentId = (Get-CimInstance Win32_Process -Filter "ProcessId = $PID").ParentProcessId
+2025-06-21 11:26:35	$hostProc = Get-Process -Id $parentId
+2025-06-21 11:26:35	$hwnd = $hostProc.MainWindowHandle
+2025-06-21 11:26:35	if ($hwnd -eq 0) {
+    Write-Host "❌ No window handle found. Try running this in Windows Terminal or PowerShell ISE."
+} else {
+    $result = [WindowTools]::SetWindowPos($hwnd, [IntPtr]::op_Explicit(-1), 0, 0, 0, 0, 0x0001 -bor 0x0002)
+    if ($result) {
+        Write-Host "✅ Terminal is now floating (always on top)."
+    } else {
+        Write-Host "❌ Failed to set window always on top."
+    }
+}
+2025-06-21 11:29:13	@"
+Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class WindowTools {
+    [DllImport("user32.dll")]
+    public static extern bool SetWindowPos(
+        IntPtr hWnd,
+        IntPtr hWndInsertAfter,
+        int X,
+        int Y,
+        int cx,
+        int cy,
+        uint uFlags);
+}
+"@ -ErrorAction SilentlyContinue
+2025-06-21 11:29:13	@"
+Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class WindowTools {
+    [DllImport("user32.dll")]
+    public static extern bool SetWindowPos(
+        IntPtr hWnd,
+        IntPtr hWndInsertAfter,
+        int X,
+        int Y,
+        int cx,
+        int cy,
+        uint uFlags);
+}
+"@ -ErrorAction SilentlyContinue
+2025-06-21 11:29:13	\$parentId = (Get-CimInstance Win32_Process -Filter "ProcessId = \$PID").ParentProcessId
+2025-06-21 11:29:13	\$hostProc = Get-Process -Id \$parentId
+2025-06-21 11:29:13	\$hwnd = \$hostProc.MainWindowHandle
+2025-06-21 11:29:13	if (\$hwnd -eq 0) {
+    Write-Host "❌ No window handle found. Try running this in Windows Terminal or PowerShell ISE."
+} else {
+    \$result = [WindowTools]::SetWindowPos(\$hwnd, [IntPtr]::op_Explicit(-1), 0, 0, 0, 0, 0x0001 -bor 0x0002)
+    if (\$result) {
+        Write-Host "✅ Terminal is now floating (always on top)."
+    } else {
+        Write-Host "❌ Failed to set window always on top."
+    }
+}
+2025-06-21 11:31:33	"@ | Set-Content "D:\scripts\PowerShellLogs\float_terminal.ps1"
+
+
+D:\scripts\PowerShellLogs\float_terminal.ps1
+
+@'
+Add-Type @"
+2025-06-21 11:31:33	using System;
+2025-06-21 11:31:33	using System.Runtime.InteropServices;
+2025-06-21 11:31:33	public class WindowTools {
+    [DllImport("user32.dll")]
+    public static extern bool SetWindowPos(
+        IntPtr hWnd,
+        IntPtr hWndInsertAfter,
+        int X,
+        int Y,
+        int cx,
+        int cy,
+        uint uFlags);
+}
+2025-06-21 11:32:23	"@
+
+$parentId = (Get-CimInstance Win32_Process -Filter "ProcessId = $PID").ParentProcessId
+$hostProc = Get-Process -Id $parentId
+$hwnd = $hostProc.MainWindowHandle
+
+if ($hwnd -eq 0) {
+    Write-Host "❌ No window handle found. Try running this in Windows Terminal or PowerShell ISE."
+} else {
+    $result = [WindowTools]::SetWindowPos($hwnd, [IntPtr]::op_Explicit(-1), 0, 0, 0, 0, 0x0001 -bor 0x0002)
+    if ($result) {
+        Write-Host "✅ Terminal is now floating (always on top)."
+    } else {
+        Write-Host "❌ Failed to set window always on top."
+    }
+}
+'@ | Set-Content "D:\scripts\PowerShellLogs\float_terminal.ps1"
+@'
+Add-Type @"
+2025-06-21 11:32:24	using System;
+2025-06-21 11:32:24	using System.Runtime.InteropServices;
+2025-06-21 11:32:24	public class WindowTools {
+    [DllImport("user32.dll")]
+    public static extern bool SetWindowPos(
+        IntPtr hWnd,
+        IntPtr hWndInsertAfter,
+        int X,
+        int Y,
+        int cx,
+        int cy,
+        uint uFlags);
+}
+2025-06-21 23:29:08	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-21 23:41:21	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-21 23:41:22	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-21 23:46:51	cd D:\mitrat\The ride
+2025-06-21 23:49:28	cd "D:\mitrat\TheRide"
+2025-06-21 23:52:01	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-21 23:52:01	flutter create guided_journal
+2025-06-22 00:04:01	public class WindowTools {
+    [DllImport("user32.dll")]
+    public static extern bool SetWindowPos(
+        IntPtr hWnd,
+        IntPtr hWndInsertAfter,
+        int X,
+        int Y,
+        int cx,
+        int cy,
+        uint uFlags);
+}
+2025-06-22 00:04:11	"@
+
+$parentId = (Get-CimInstance Win32_Process -Filter "ProcessId = $PID").ParentProcessId
+$hostProc = Get-Process -Id $parentId
+$hwnd = $hostProc.MainWindowHandle
+
+if ($hwnd -eq 0) {
+    Write-Host "❌ No window handle found. Try running this in Windows Terminal or PowerShell ISE."
+} else {
+    $result = [WindowTools]::SetWindowPos($hwnd, [IntPtr]::op_Explicit(-1), 0, 0, 0, 0, 0x0001 -bor 0x0002)
+    if ($result) {
+        Write-Host "✅ Terminal is now floating (always on top)."
+    } else {
+        Write-Host "❌ Failed to set window always on top."
+    }
+}
+'@ | Set-Content "D:\scripts\PowerShellLogs\float_terminal.ps1"
+@'
+Add-Type @"
+2025-06-22 00:05:30	Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class WindowTools {
+    [DllImport("user32.dll")]
+    public static extern bool SetWindowPos(
+        IntPtr hWnd,
+        IntPtr hWndInsertAfter,
+        int X,
+        int Y,
+        int cx,
+        int cy,
+        uint uFlags);
+}
+"@
+2025-06-22 00:05:33	public class WindowTools {
+    [DllImport("user32.dll")]
+    public static extern bool SetWindowPos(
+        IntPtr hWnd,
+        IntPtr hWndInsertAfter,
+        int X,
+        int Y,
+        int cx,
+        int cy,
+        uint uFlags);
+}
+2025-06-22 00:05:36	"@
+
+$parentId = (Get-CimInstance Win32_Process -Filter "ProcessId = $PID").ParentProcessId
+$hostProc = Get-Process -Id $parentId
+$hwnd = $hostProc.MainWindowHandle
+
+if ($hwnd -eq 0) {
+    Write-Host "❌ No window handle found. Try running this in Windows Terminal or PowerShell ISE."
+} else {
+    $result = [WindowTools]::SetWindowPos($hwnd, [IntPtr]::op_Explicit(-1), 0, 0, 0, 0, 0x0001 -bor 0x0002)
+    if ($result) {
+        Write-Host "✅ Terminal is now floating (always on top)."
+    } else {
+        Write-Host "❌ Failed to set window always on top."
+    }
+}
+'@ | Set-Content "D:\scripts\PowerShellLogs\float_terminal.ps1"
+@'
+Add-Type @"
+2025-06-22 00:05:41	"@ | Set-Content "D:\scripts\PowerShellLogs\float_terminal.ps1"
+
+
+D:\scripts\PowerShellLogs\float_terminal.ps1
+
+@'
+Add-Type @"
+2025-06-22 00:05:43	"@
+
+$parentId = (Get-CimInstance Win32_Process -Filter "ProcessId = $PID").ParentProcessId
+$hostProc = Get-Process -Id $parentId
+$hwnd = $hostProc.MainWindowHandle
+
+if ($hwnd -eq 0) {
+    Write-Host "❌ No window handle found. Try running this in Windows Terminal or PowerShell ISE."
+} else {
+    $result = [WindowTools]::SetWindowPos($hwnd, [IntPtr]::op_Explicit(-1), 0, 0, 0, 0, 0x0001 -bor 0x0002)
+    if ($result) {
+        Write-Host "✅ Terminal is now floating (always on top)."
+    } else {
+        Write-Host "❌ Failed to set window always on top."
+    }
+}
+'@ | Set-Content "D:\scripts\PowerShellLogs\float_terminal.ps1"
+@'
+Add-Type @"
+2025-06-22 00:05:51	$hwnd = $hostProc.MainWindowHandle
+2025-06-22 00:05:53	"@
+
+$parentId = (Get-CimInstance Win32_Process -Filter "ProcessId = $PID").ParentProcessId
+$hostProc = Get-Process -Id $parentId
+$hwnd = $hostProc.MainWindowHandle
+
+if ($hwnd -eq 0) {
+    Write-Host "❌ No window handle found. Try running this in Windows Terminal or PowerShell ISE."
+} else {
+    $result = [WindowTools]::SetWindowPos($hwnd, [IntPtr]::op_Explicit(-1), 0, 0, 0, 0, 0x0001 -bor 0x0002)
+    if ($result) {
+        Write-Host "✅ Terminal is now floating (always on top)."
+    } else {
+        Write-Host "❌ Failed to set window always on top."
+    }
+}
+'@ | Set-Content "D:\scripts\PowerShellLogs\float_terminal.ps1"
+@'
+Add-Type @"
+2025-06-22 00:06:00	Remove-Item -Force d:\mitrat\CloversUI\clovers\login_sign_up.html
+2025-06-22 00:25:28	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 00:25:32	[Environment]::SetEnvironmentVariable(
+  "Path",
+  $Env:Path + ";D:\Flutter\flutter\bin",
+  [EnvironmentVariableTarget]::Machine
+)
+
+2025-06-22 00:25:50	[Environment]::SetEnvironmentVariable(
+  "Path",
+  $Env:Path + ";D:\Flutter\flutter\bin",
+  [EnvironmentVariableTarget]::Machine
+)
+2025-06-22 00:26:32	$phpPath = "D:\interpreter\php"
+2025-06-22 00:26:32	$currentPath = [Environment]::GetEnvironmentVariable("Path", [EnvironmentVariableTarget]::Machine)
+2025-06-22 00:27:31	$flutterPath = "D:\Flutter\flutter\bin"
+2025-06-22 00:27:31	$currentPath = [Environment]::GetEnvironmentVariable("Path", [EnvironmentVariableTarget]::Machine)
+2025-06-22 00:27:31	if ($currentPath -notlike "*$flutterPath*") {
+    [Environment]::SetEnvironmentVariable(
+        "Path",
+        "$currentPath;$flutterPath",
+        [EnvironmentVariableTarget]::Machine
+    )
+    Write-Output "✅ Flutter path added. Please restart your terminal or run 'flutter doctor'."
+} else {
+    Write-Output "ℹ Flutter path is already in the system PATH."
+}
+2025-06-22 00:28:19	if ($currentPath -notlike "*$flutterPath*") {
+    [Environment]::SetEnvironmentVariable(
+        "Path",
+        "$currentPath;$flutterPath",
+        [EnvironmentVariableTarget]::Machine
+    )
+    Write-Output "✅ Flutter path added. Please restart your terminal or run 'flutter doctor'."
+} else {
+    Write-Output "ℹ Flutter path is already in the system PATH."
+}
+2025-06-22 00:29:57	flutter create guided_journal
+2025-06-22 00:29:58	flutter create guided_journal
+2025-06-22 00:46:46	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 00:47:17	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 00:47:18	flutter create guided_journal
+2025-06-22 00:48:43	D:\Flutter\flutter\bin
+
+2025-06-22 00:49:19	flutter --version
+
+2025-06-22 00:49:43	if ($currentPath -notlike "*$flutterPath*") {
+    [Environment]::SetEnvironmentVariable(
+        "Path",
+        "$currentPath;$flutterPath",
+        [EnvironmentVariableTarget]::Machine
+    )
+    Write-Output "✅ Flutter path added. Please restart your terminal or run 'flutter doctor'."
+} else {
+    Write-Output "ℹ Flutter path is already in the system PATH."
+}
+2025-06-22 00:50:33	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 00:50:40	flutter --version
+
+2025-06-22 00:51:34	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 00:51:46	flutter --version
+
+2025-06-22 00:53:27	& "D:\Flutter\flutter\bin\flutter.bat" --version
+
+2025-06-22 00:53:39	$env:Path -split ';' | Where-Object { $_ -like "*flutter*" }
+
+2025-06-22 00:57:59	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 00:58:47	flutter --version
+
+2025-06-22 00:58:59	flutter create guided_journal
+
+2025-06-22 00:59:46	[Environment]::GetEnvironmentVariable("Path", "User") -split ';' | Where-Object { $_ -like "*flutter*" }
+
+2025-06-22 01:00:02	[Environment]::GetEnvironmentVariable("Path", "Machine") -split ';' | Where-Object { $_ -like "*flutter*" }
+
+2025-06-22 01:00:21	[Environment]::SetEnvironmentVariable(
+  "Path",
+  [Environment]::GetEnvironmentVariable("Path", "User") + ";D:\Flutter\flutter\bin",
+  "User"
+)
+
+2025-06-22 01:00:45	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 01:01:12	[Environment]::SetEnvironmentVariable(
+  "Path",
+  [Environment]::GetEnvironmentVariable("Path", "User") + ";D:\Flutter\flutter\bin",
+  "User"
+)
+
+2025-06-22 01:01:26	flutter --version
+
+2025-06-22 01:02:06	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 01:03:13	flutter create guided_journal
+2025-06-22 01:03:59	cd guided_journal; flutter pub get
+2025-06-22 01:05:10	flutter doctor
+2025-06-22 08:40:45	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 12:05:00	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 12:05:21	mongod
+
+2025-06-22 12:07:01	New-Item -Path "D:\database\mongoDB\data\db" -ItemType Directory -Force
+#crts a dat dir where mongodb stores its files
+2025-06-22 12:07:25	"D:\database\mongoDB\mongodb-win32-x86_64-windows-8.0.10\bin\mongod.exe" --dbpath "D:\database\mongoDB\data\db"
+#strt mongodb 
+2025-06-22 12:07:38	$ "D:\database\mongoDB\mongodb-win32-x86_64-windows-8.0.10\bin\mongod.exe" --dbpath "D:\database\mongoDB\data\db"
+
+2025-06-22 12:10:23	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 12:10:28	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 12:10:40	node -v
+#mkng sure node is installed
+2025-06-22 12:10:46	cd D:\mitrat\CloversUI\clovers
+
+2025-06-22 12:11:34	node app.js # rn app
+2025-06-22 14:22:28	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 14:22:42	cd D:\mitrat\CloversUI\clovers
+2025-06-22 14:22:58	"D:\database\mongoDB\mongodb-win32-x86_64-windows-8.0.10\bin\mongod.exe" --dbpath "D:\database\mongoDB\data\db"
+#strt mongodb 
+2025-06-22 14:23:21	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 14:23:32	cd D:\mitrat\CloversUI\clovers
+2025-06-22 14:41:51	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 14:42:03	cd D:\mitrat\CloversUI\clovers
+2025-06-22 14:43:31	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 14:50:52	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 14:50:58	cd D:\mitrat\CloversUI\clovers
+2025-06-22 14:51:17	cd D:\mitrat\CloversUI\clovers& "D:\database\mongoDB\mongosh-2.5.2-win32-x64\bin\mongosh.exe"
+
+2025-06-22 14:52:09	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 14:52:15	cd D:\mitrat\CloversUI\clovers
+2025-06-22 15:08:57	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 15:09:00	cd D:\mitrat\CloversUI\clovers
+2025-06-22 15:24:32	cd D:\mitrat\CloversUI\clovers
+2025-06-22 15:25:00	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 15:25:03	cd D:\mitrat\CloversUI\clovers
+2025-06-22 15:34:12	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 15:34:18	cd D:\mitrat\CloversUI\clovers
+2025-06-22 15:40:13	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 15:40:16	cd D:\mitrat\CloversUI\clovers
+2025-06-22 16:04:36	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 16:05:53	cd D:\mitrat\CloversUI\clovers
+2025-06-22 16:09:44	"D:\database\mongoDB\mongosh-2.5.2-win32-x64\bin\mongosh.exe"
+
+2025-06-22 16:10:14	"D:\database\mongoDB\mongodb-win32-x86_64-windows-8.0.10\bin\mongod.exe" --dbpath "D:\database\data"
+
+2025-06-22 16:17:17	D:\database\mongoDB\mongodb-win32-x86_64-windows-8.0.10\bin\mongod.exe --dbpath D:\database\data
+2025-06-22 16:18:33	mkdir D:\database\data
+2025-06-22 16:22:36	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 16:22:41	cd D:\mitrat\CloversUI\clovers
+2025-06-22 16:24:17	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 16:29:37	cd D:\mitrat\CloversUI\clovers
+2025-06-22 16:44:04	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 16:44:26	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 16:44:30	cd D:\mitrat\CloversUI\clovers
+2025-06-22 17:14:18	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 17:14:21	cd D:\mitrat\CloversUI\clovers
+2025-06-22 17:14:33	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 17:14:35	cd D:\mitrat\CloversUI\clovers
+2025-06-22 17:14:38	node app.js
+2025-06-22 17:15:18	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 17:15:25	npm install express-rate-limit
+2025-06-22 17:15:40	node app.js
+2025-06-22 17:16:23	cd D:\mitrat\CloversUI\clovers
+2025-06-22 18:22:52	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 18:22:55	cd D:\mitrat\CloversUI\clovers
+2025-06-22 18:23:08	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 18:23:09	cd D:\mitrat\CloversUI\clovers
+2025-06-22 18:53:41	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 18:53:51	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 18:53:54	cd D:\mitrat\CloversUI\clovers
+2025-06-22 18:54:06	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 18:54:10	cd D:\mitrat\CloversUI\clovers
+2025-06-22 19:05:32	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 19:05:36	node app.js
+2025-06-22 19:05:48	cd D:\mitrat\CloversUI\clovers
+2025-06-22 19:11:54	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 19:11:57	cd D:\mitrat\CloversUI\clovers
+2025-06-22 19:12:08	cd D:\mitrat\CloversUI
+2025-06-22 19:13:07	git init
+git remote add origin https://github.com/clintonmotariM/CloversUI.git
+
+2025-06-22 19:13:24	git remote set-url origin https://github.com/clintonmotariM/CloversUI.git
+
+2025-06-22 19:13:40	git checkout -b feature/clovers-ui
+
+2025-06-22 19:13:53	git add .
+2025-06-22 19:14:03	git commit -m "Initial commit to feature/clovers-ui branch"
+
+2025-06-22 19:14:20	git push -u origin feature/clovers-ui
+
+2025-06-22 19:27:11	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-22 19:27:24	cd D:\mitrat\CloversUI\clovers
+2025-06-22 19:27:48	Copy-Item -Recurse D:\mitrat\CloversUI\clovers D:\mitrat\CloversUI\
+
+2025-06-22 19:27:59	git add clovers
+
+2025-06-22 19:28:08	git status
+
+2025-06-22 19:29:41	git checkout feature/clovers-ui
+
+2025-06-22 19:30:52	cd D:\mitrat\CloversUI
+git add clovers
+git add environmentvar.env middlewares/ public/ routes/ server/ utils/
+
+2025-06-22 19:31:07	git commit -m "Add clovers folder and related files to feature/clovers-ui branch"
+
+2025-06-22 19:31:41	git push
+
+2025-06-22 19:32:23	cd D:\mitrat\CloversUI
+
+2025-06-22 19:32:36	git add -A
+2025-06-22 19:32:47	git status
+2025-06-22 19:33:00	git commit -m "Added all remaining project files to feature/clovers-ui branch"
+
+2025-06-22 19:33:31	git push
+2025-06-22 19:33:49	git reset
+git add -A
+git commit -m "Full reset and add all files to feature/clovers-ui"
+git push
+
+2025-06-23 08:26:53	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-23 08:26:53	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-23 11:23:31	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-23 11:23:57	cd D:\mitrat\CloversUI\clovers
+2025-06-23 16:20:07	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-23 17:40:20	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-23 21:23:35	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-23 21:23:43	cd D:\mitrat\portfoloio
+
+2025-06-23 21:23:58	echo "# Portfolio" >> README.md
+git init
+git add .
+git commit -m "first commit"
+
+2025-06-23 21:24:08	git branch -M main
+
+2025-06-23 21:24:20	git remote add origin https://github.com/clintonmotariM/Portfolio.git
+
+2025-06-23 21:24:45	git push -u origin main
+
+2025-06-23 21:25:26	ping github.com
+
+2025-06-23 21:25:49	git remote -v
+
+2025-06-23 21:27:30	git remote set-url origin git@github.com:clintonmotariM/Portfolio.git
+git push -u origin main
+
+2025-06-23 21:28:52	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-23 21:29:28	echo "# Portfolio website advertising me as a developer" >> README.md
+
+2025-06-23 21:29:49	git init
+
+2025-06-23 21:30:27	git commit -m "first commit"
+2025-06-23 21:30:50	git commit -m "first commit"
+
+2025-06-23 21:31:01	git branch -M main
+
+2025-06-23 21:31:13	git remote add origin https://github.com/clintonmotariM/Portfolio.git
+
+2025-06-23 21:31:32	git push -u origin main
+
+2025-06-23 21:32:04	git add README.md
+git commit -m "first commit"
+
+2025-06-23 21:32:21	git remote remove origin
+git remote add origin https://github.com/clintonmotariM/Portfolio.git
+
+2025-06-23 21:33:05	git push -u origin main
+
+2025-06-23 21:46:31	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-23 21:48:01	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-23 21:48:19	git init
+
+2025-06-23 21:48:29	git add .
+
+2025-06-23 21:48:36	git commit -m "first commit"
+
+2025-06-23 21:48:45	git commit -m "first commit"
+
+2025-06-23 21:48:58	git commit -m "first commit"
+
+2025-06-23 21:49:03	git branch -M main
+
+2025-06-23 21:49:12	git remote add origin https://github.com/clintonmotariM/fuzzwifijammer.git
+
+2025-06-23 21:49:29	git push -u origin main
+
+2025-06-23 21:50:09	git remote -v
+
+2025-06-23 21:50:23	git remote remove origin
+git remote add origin https://github.com/clintonmotariM/fuzzwifijammer.git
+
+2025-06-23 21:50:55	git push -u origin main
+
+2025-06-24 09:40:44	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-24 09:44:39	cd  D:\mitrat>  
+2025-06-24 09:44:57	cd  D:\mitrat\  
+2025-06-24 09:45:44	git clone https://github.com/openai/openai-cs-agents-demo.git
+
+2025-06-24 09:45:47	cd openai-cs-agents-demo
+
+2025-06-24 15:04:40	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-24 15:20:01	try { . "c:\Users\MOTRI\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+2025-06-24 15:20:10	Get-ChildItem "$env:USERPROFILE\AppData" -Recurse -Directory |
+Sort-Object @{Expression={($_ | Get-ChildItem -Recurse -File | Measure-Object -Property Length -Sum).Sum}; Descending=$true} |
+Select-Object FullName, @{Name="Size(GB)";Expression={"{0:N2}" -f (($_ | Get-ChildItem -Recurse -File | Measure-Object -Property Length -Sum).Sum / 1GB)}} |
+Format-Tab
+
+2025-06-24 15:20:43	Get-ChildItem "$env:USERPROFILE\AppData" -Recurse -Directory |
+Sort-Object @{Expression={($_ | Get-ChildItem -Recurse -File | Measure-Object -Property Length -Sum).Sum}; Descending=$true} |
+Select-Object FullName, @{Name="Size(GB)";Expression={"{0:N2}" -f (($_ | Get-ChildItem -Recurse -File | Measure-Object -Property Length -Sum).Sum / 1GB)}} |
+Format-Tab
+
+2025-06-24 15:29:46	Get-ChildItem "$env:USERPROFILE\AppData" -Recurse -Directory |
+Sort-Object @{Expression={($_ | Get-ChildItem -Recurse -File | Measure-Object -Property Length -Sum).Sum}; Descending=$true} |
+Select-Object FullName, @{Name="Size(GB)";Expression={"{0:N2}" -f (($_ | Get-ChildItem -Recurse -File | Measure-Object -Property Length -Sum).Sum / 1GB)}} |
+Format-Table -AutoSize
+
+2025-06-24 15:33:42	$systemPatterns = @("Microsoft", "Windows", "Packages", "Temp", "CrashDumps", "Diagnostics", "InputMethod", "SoftwareDistribution")
+$nonSystemApps = @()
+
+Get-ChildItem "$env:USERPROFILE\AppData" -Recurse -Directory -ErrorAction SilentlyContinue | ForEach-Object {
+    $fullPath = $_.FullName
+    $isSystem = $false
+
+    foreach ($pattern in $systemPatterns) {
+        if ($fullPath -like "*\$pattern*") {
+            $isSystem = $true
+            break
+        }
+    }
+
+    if (-not $isSystem) {
+        $sizeBytes = (Get-ChildItem $_.FullName -Recurse -File -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum).Sum
+        $sizeGB = "{0:N2}" -f ($sizeBytes / 1GB)
+
+        [PSCustomObject]@{
+            Path    = $fullPath
+            SizeGB  = $sizeGB
+        }
+    }
+} | Sort-Object -Property SizeGB -Descending | Format-Table -AutoSize
+
+2025-06-24 15:40:16	# Get the full path to the user's AppData folder
+$appDataPath = "$env:USERPROFILE\AppData".ToLower()
+
+# Get all processes with loaded modules
+$processes = Get-Process -IncludeUserName -ErrorAction SilentlyContinue
+
+foreach ($proc in $processes) {
+    try {
+        $hasAppDataOpen = $false
+
+        # Get the file handles (modules or file paths) loaded by this process
+        $modules = $proc.Modules | ForEach-Object { $_.FileName } | Where-Object { $_ -and $_.ToLower().StartsWith($appDataPath) }
+
+        if ($modules.Count -gt 0) {
+            $hasAppDataOpen = $true
+        }
+
+        if ($hasAppDataOpen) {
+            Write-Host "🔴 Closing process: $($proc.ProcessName) (PID: $($proc.Id)) using AppData..."
+            Stop-Process -Id $proc.Id -Force
+        }
+    } catch {
+        # Some system or protected processes will throw access exceptions
+        Write-Host "⚠️ Could not inspect or close process: $($proc.ProcessName) (PID: $($proc.Id))"
+    }
+}
+
+2025-06-24 15:47:02	$sourceRoot = "$env:USERPROFILE\AppData"
+$destRoot = "D:\system\AppData"
+
+# Patterns of system folders to exclude
+$systemPatterns = @("Microsoft", "Windows", "Packages", "Temp", "CrashDumps", "Diagnostics", "InputMethod", "SoftwareDistribution")
+
+# Create destination root folder if not exists
+if (-not (Test-Path $destRoot)) {
+    New-Item -ItemType Directory -Path $destRoot
+}
+
+# Get all top-level folders under AppData (Local, Roaming, LocalLow)
+$topFolders = Get-ChildItem -Path $sourceRoot -Directory -Recurse -Depth 1 -ErrorAction SilentlyContinue
+
+foreach ($folder in $topFolders) {
+    $relativePath = $folder.FullName.Substring($sourceRoot.Length).TrimStart("\")
+    $isSystem = $false
+
+    foreach ($pattern in $systemPatterns) {
+        if ($folder.FullName -like "*\$pattern*") {
+            $isSystem = $true
+            break
+        }
+    }
+
+    if (-not $isSystem) {
+        $sourcePath = $folder.FullName
+        $targetPath = Join-Path $destRoot $relativePath
+
+        # Skip if symlink already exists
+        if ((Test-Path $sourcePath) -and -not (Get-Item $sourcePath).Attributes.ToString().Contains("ReparsePoint")) {
+            try {
+                # Create destination folder
+                New-Item -ItemType Directory -Force -Path (Split-Path $targetPath) | Out-Null
+
+                # Move folder
+                Move-Item -Path $sourcePath -Destination $targetPath
+
+                # Create symbolic link
+                cmd /c mklink /D "$sourcePath" "$targetPath" | Out-Null
+                Write-Host "✔ Moved and linked: $relativePath"
+            }
+            catch {
+                Write-Warning "⚠ Failed to move: $relativePath - $_"
+            }
+        }
+    }
+}
+
+2025-06-24 15:53:01	&{Import-Module "D:\programing\visualstdo\Common7\Tools\Microsoft.VisualStudio.DevShell.dll"; Enter-VsDevShell 0d7bcd7f}

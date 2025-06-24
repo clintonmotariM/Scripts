@@ -1,0 +1,62 @@
+﻿2025-06-20 22:47:40	$timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
+$logFile = "D:\scripts\PowerShellLogs\uninstall_log_$timestamp.txt"
+#++ ADDN TM STMP
+2025-06-20 22:47:55	Log "Cleanup Summary: $($grouped.Count) duplicate program(s) processed." "INFO"
+#SMRY AT END
+2025-06-20 22:48:50	D:\scripts\PowerShellLogs\uninstall_duplicates.ps1
+# RNNG FLL SCRPT
+2025-06-20 22:51:11	Log $("Error uninstalling $name $version: $errMsg") "ERROR"
+# FX WRP MSG IN $() T ENSR SAF VR INRPLTN
+2025-06-20 22:54:40	Log "Error uninstalling ${name} ${version}: $errMsg" "ERROR"
+
+2025-06-20 22:55:38	function Log {
+    param (
+        [string]$message,
+        [string]$level = "INFO"
+    )
+    $timestamp = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
+    $line = "[$timestamp][$level] $message"
+    Write-Host $line
+    $line | Out-File -FilePath "D:\scripts\PowerShellLogs\uninstall_log_test.txt" -Append -Encoding utf8
+}
+
+2025-06-20 22:55:48	$name = "TestApp"
+$version = "1.0.0"
+$errMsg = "Simulated uninstall failure"
+Log "Error uninstalling ${name} ${version}: $errMsg" "ERROR"
+
+2025-06-20 22:56:05	# After Log function is already declared...
+catch {
+    $errMsg = $_.Exception.Message
+    Log "Error uninstalling ${name} ${version}: $errMsg" "ERROR"
+}
+
+2025-06-20 22:56:36	$name = "TestApp"
+$version = "1.0.0"
+
+try {
+    throw "Simulated uninstall failure"
+}
+catch {
+    $errMsg = $_.Exception.Message
+    Log "Error uninstalling ${name} ${version}: $errMsg" "ERROR"
+}
+
+2025-06-20 22:56:45	function Test-UninstallLog {
+    $name = "TestApp"
+    $version = "1.0.0"
+    try {
+        throw "Simulated uninstall failure"
+    } catch {
+        $errMsg = $_.Exception.Message
+        Log "Error uninstalling ${name} ${version}: $errMsg" "ERROR"
+    }
+}
+Test-UninstallLog
+
+2025-06-20 22:59:01	Add-Type -AssemblyName System.Windows.Forms
+[System.Windows.Forms.MessageBox]::Show("Uninstall $appName?", "Confirm", "YesNo")
+#ADD POPUP BFR ECH UNSTL 
+2025-06-20 22:59:44	Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* |
+Where-Object { $_.DisplayName -and $_.DisplayVersion }
+#RGSTRY BSD PRGRM DTCTN
